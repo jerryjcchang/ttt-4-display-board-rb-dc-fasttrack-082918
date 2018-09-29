@@ -1,5 +1,4 @@
-x = 0 
-while x < 100
-  puts x 
-  x += 1
+number = [1,2,3,4,5]
+number.each do |number|
+  puts "the number is #{number}"
 end
